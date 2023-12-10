@@ -1,0 +1,205 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+#container-content{
+    display: none;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    line-height: 1.6;
+    left: 0%;
+    margin-top: 12px;
+}
+#container-content ul{
+    display: none;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    line-height: 1.6;
+    left: 0%;
+    margin-top: 11px;
+}
+#container{
+    position: relative;
+}
+#container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #151516;
+    width: 100%;
+    top: 0%;
+    padding: 9px;
+    position: fixed;
+    font-size: 14px;
+    margin: 0px;
+}
+#container li:hover #container-content{
+    background-color: #1d1d1f;
+    color: gainsboro;
+    display: block;
+}
+#container li:hover #container-content ul{
+    margin-top: 40px;
+    background-color: #1d1d1f;
+    color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#container a svg{
+    fill: gainsboro;
+}
+#container a svg:hover{
+    fill: white;
+}
+#container a{
+    font-size: 12 px;
+    font-weight: 400; 
+    text-decoration: none;
+}
+#container a:visited{
+    color: gainsboro
+}
+#container a:link{
+    color: gainsboro;
+}
+#container a:active{
+    color: gainsboro;
+}
+#container a:hover{
+    color: white;
+}
+#applelogo{
+    height: 12px;
+    width: 12px
+}
+#advertisment{
+    background-color: #1d1d1f;
+    color: #fbfbfd;
+    padding: 14px;
+    text-align: center;
+    font-size: 15px;
+}
+#main {
+    background-color: rgb(5, 5, 5);
+    color: #fbfbfd;
+    padding: 1%;
+    text-align: center;
+    padding-top:  50px;
+}
+#sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height:4
+}
+#sub a{
+    text-decoration: none;
+    font-size: 110%;
+    color: rgb(51, 150, 207);
+}
+#sub a:hover{
+    text-decoration: underline;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+}
+#iphone15{
+    color:black;
+    background-color: white;
+    margin: 0%;
+    padding-top: 50px;
+}
+#drop{
+    font-size: 13px;
+    line-height: 1.6;
+    color: #151516;
+}
+#drop1{
+    font-size: 13px;
+    line-height: 1.6;
+    color: #151516;
+}
+#drop2{
+    font-size: 13px;
+    line-height: 1.6;
+    color: #151516;
+}
+#drop3{
+    font-size: 13px;
+    line-height: 1.6;
+    color: #151516;
+}
+ul{
+    list-style-type: none;
+}
+#drop a:link{
+    color:#151516;
+    text-decoration: none;
+}
+#drop a:hover{
+    text-decoration: underline;
+}
+#drop a:visited{
+    color: #151516;
+}
+#drop1 a:link{
+    color:#151516;
+    text-decoration: none;
+}
+#drop1 a:hover{
+    text-decoration: underline;
+}
+#drop1 a:visited{
+    color: #151516;
+}
+#drop2 a:link{
+    color:#151516;
+    text-decoration: none;
+}
+#drop2 a:hover{
+    text-decoration: underline;
+}
+#drop2 a:visited{
+    color: #151516;
+}
+#drop3 a:link{
+    color:#151516;
+    text-decoration: none;
+}
+#drop3 a:hover{
+    text-decoration: underline;
+}
+#drop3 a:visited{
+    color: #151516;
+}
+#droppage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
